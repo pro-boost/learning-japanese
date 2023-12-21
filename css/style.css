@@ -1,0 +1,39 @@
+body {
+    background-color: C0C5C1;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(0, 45, 128);
+    font-size: 60px;
+}
+p {
+    color: white;
+}
+div
+{
+    background-color: chocolate;
+    width: 500px;
+    padding: 20px;
+}
+
+span {
+    color: skyblue;
+    font-size: x-large;
+}
+
+.top {
+    color: yellow;
+    background-color: blue;
+
+}
+
+.btm {
+    color: wheat;
+    background-color: black;
+}
+div p {
+    color: inherit;
+}
