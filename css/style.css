@@ -1,8 +1,12 @@
 body {
-    background-color: C0C5C1;
+    background-color: rgb(255, 220, 225);
+    background-image: url(../img/scattered-forcefields.png);
+    background-repeat: repeat;
+    background-size: contain;
     margin: 0;
     padding: 0px;
     margin-left: 50px;
+
 }
 
 h1 {
