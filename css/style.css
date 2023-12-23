@@ -25,27 +25,24 @@ h2 {
 }
 .aboutus {
     font-size: 20px;
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
     text-align: justify;
 }
 .ourmission {
     font-size: 20px;
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
     text-align: justify;
 }
 .whatsetsusapart {
     font-size: 20px;
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 2;
     text-align: justify;
 }
 h3 {
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 30px;
 }
 .method {
@@ -55,6 +52,7 @@ h3 {
     padding: 0px;
     border: 5px rgb(0, 67, 121) solid;
     line-height: 1.5;
+    font-size: 20px;
 
 }
 .apps {
@@ -63,6 +61,7 @@ h3 {
     margin-bottom: 50px;
     border: 5px rgb(0, 63, 121) solid;
     line-height: 1.5;
+    font-size: 20px;
 }
 .tools {
     background-color: rgb(146, 206, 255) ;
@@ -70,6 +69,7 @@ h3 {
     margin-bottom: 50px;
     border: 5px rgb(8, 0, 121) solid;
     line-height: 1.5;
+    font-size: 20px;
 }
 .underline-italic {
 text-decoration: underline;
