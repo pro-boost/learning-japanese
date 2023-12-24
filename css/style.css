@@ -62,4 +62,11 @@ h3 {
 .underline-italic {
     text-decoration: underline;
     font-style: italic; 
+}*
+a:link {
+    color:red; 
+}
+a:hover, 
+a:focus {
+    color: rgb(255, 98, 0);
 }
