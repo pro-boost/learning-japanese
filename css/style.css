@@ -6,7 +6,6 @@ body {
     padding-right: 15px;
     margin-left: 50px;
 }
-
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
@@ -17,7 +16,6 @@ h2 {
     font-size: 40px;
     text-decoration: underline;
 }
-
 .aboutus,
 .ourmission,
 .whatsetsusapart {
@@ -25,9 +23,7 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
-.aboutus {
-    line-height: 1.5;
-}
+.aboutus,
 .ourmission {
     line-height: 1.5;
 }
@@ -62,7 +58,7 @@ h3 {
 .underline-italic {
     text-decoration: underline;
     font-style: italic; 
-}*
+}
 a:link {
     color:red; 
 }
