@@ -3,75 +3,63 @@ body {
     background-image: url(../img/scattered-forcefields.png);
     background-repeat: repeat;
     background-size: contain;
-    margin: 0;
     padding-right: 15px;
     margin-left: 50px;
-    align-items: center;
-
 }
 
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
-    margin-left: 00px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 h2 {
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     text-decoration: underline;
 }
-.aboutus {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.5;
-    text-align: justify;
-}
-.ourmission {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.5;
-    text-align: justify;
-}
+
+.aboutus,
+.ourmission,
 .whatsetsusapart {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2;
     text-align: justify;
+}
+.aboutus {
+    line-height: 1.5;
+}
+.ourmission {
+    line-height: 1.5;
+}
+.whatsetsusapart {
+    line-height: 2;
 }
 h3 {
     margin-left: 30px;
     font-size: 30px;
 }
-.method {
-    background-color: rgb(224, 241, 255) ;
+.method,
+.apps,
+.tools  {
     width: 600px;
     margin-bottom: 50px;
     padding: 0px;
-    border: 5px rgb(0, 67, 121) solid;
     line-height: 1.5;
     font-size: 20px;
-
+}
+.method {
+    background-color: rgb(224, 241, 255) ;
+    border: 5px rgb(0, 67, 121) solid;
 }
 .apps {
     background-color: rgb(188, 223, 252) ;
-    width: 600px;
-    margin-bottom: 50px;
     border: 5px rgb(0, 63, 121) solid;
-    line-height: 1.5;
-    font-size: 20px;
 }
 .tools {
     background-color: rgb(146, 206, 255) ;
-    width: 600px;
-    margin-bottom: 50px;
     border: 5px rgb(8, 0, 121) solid;
-    line-height: 1.5;
-    font-size: 20px;
 }
 .underline-italic {
-text-decoration: underline;
-font-style: italic;
+    text-decoration: underline;
+    font-style: italic; 
 }
