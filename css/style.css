@@ -6,10 +6,21 @@ body {
     padding-right: 15px;
     margin-left: 50px;
 }
+body,
+h1,
+h2,
+h3,
+.aboutus,
+.ourmission,
+.whatsetsusapart,
+.method,
+.apps,
+.tools {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 h2 {
@@ -20,7 +31,6 @@ h2 {
 .ourmission,
 .whatsetsusapart {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
 .aboutus,
