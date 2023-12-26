@@ -5,23 +5,21 @@ body {
     background-size: contain;
     padding-right: 15px;
     margin-left: 50px;
-}
-body,
-h1,
-h2,
-h3,
-.aboutus,
-.ourmission,
-.whatsetsusapart,
-.method,
-.apps,
-.tools {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
     text-align: center;
+}
+h2:nth-of-type(1) {
+    color: rgb(47, 255, 134);
+}
+h2:nth-of-type(2) {
+    color: rgb(255, 119, 0);
+}
+h2:nth-of-type(3) {
+    color: red;
 }
 h2 {
     font-size: 40px;
