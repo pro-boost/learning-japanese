@@ -25,33 +25,27 @@ h2 {
     font-size: 40px;
     text-decoration: underline;
 }
-.aboutus,
-.ourmission,
-.whatsetsusapart {
+.intro {
     font-size: 20px;
     text-align: justify;
-}
-.aboutus,
-.ourmission {
     line-height: 1.5;
 }
-.whatsetsusapart {
+
+.intro.third {
     line-height: 2;
 }
 h3 {
     margin-left: 30px;
     font-size: 30px;
 }
-.method,
-.apps,
-.tools  {
+.box {
     width: 600px;
     margin-bottom: 50px;
-    padding: 0px;
+    padding: 5px;
     line-height: 1.5;
     font-size: 20px;
 }
-.method {
+.methods {
     background-color: rgb(224, 241, 255) ;
     border: 5px rgb(0, 67, 121) solid;
 }
