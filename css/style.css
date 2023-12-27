@@ -64,7 +64,8 @@ h3 {
 a:link {
     color:red; 
 }
-a:hover, 
-a:focus {
-    color: rgb(255, 98, 0);
+a:hover {  
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
