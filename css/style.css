@@ -69,3 +69,9 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+.apps ul {
+    list-style-type: circle;
+}
+.tools ul {
+    list-style-type: square;
+}
