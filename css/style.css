@@ -6,14 +6,14 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  border: 2px red solid;
+  border: 2px red solidv;
 }
-    body {
+body {
     background-image: url(../img/scattered-forcefields.png);
     background-repeat: repeat;
     background-size: contain;
-    padding-right: 15px;
-    margin-left: 50px;
+    padding-right: 30px;
+    margin-left: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
@@ -39,17 +39,16 @@ h2 {
     text-align: justify;
     line-height: 1.5;
 }
-
 .intro.third {
     line-height: 2;
 }
 h3 {
-    margin-left: 30px;
+    margin: 10px;
+    padding: 0%;
     font-size: 30px;
 }
 .box {
     width: 600px;
-    height: 500px;
     margin: 50px;
     padding: 5px;
     line-height: 1.5;
