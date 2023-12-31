@@ -1,6 +1,11 @@
-* {
-    border: 2px solid red;
-    box-sizing: border-box;
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
     body {
     background-image: url(../img/scattered-forcefields.png);
@@ -65,7 +70,9 @@ h3 {
     font-style: italic; 
 }
 a:link {
-    color:red; 
+    color:red;
+    display: inline-block;
+    padding-left: 10px; 
 }
 a:hover {  
     background-color: red;
