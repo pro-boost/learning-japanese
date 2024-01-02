@@ -6,7 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  border: 2px red solidv;
+  /*border: 2px red solid; */
 }
 body {
     background-image: url(../img/scattered-forcefields.png);
