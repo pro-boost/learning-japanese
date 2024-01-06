@@ -40,26 +40,18 @@ h1 {
     color: rgb(0, 45, 128);
     text-align: center;
 }
-h2:nth-of-type(1) {
+.greentitle {
     color: rgb(47, 255, 134);
 }
-h2:nth-of-type(2) {
+.orangetitle {
     color: rgb(255, 119, 0);
 }
-h2:nth-of-type(3) {
-    color: red;
+.redtitle {
+    color: rgb(255, 0, 0);
 }
 h2 {
     font-size: 40px;
     text-decoration: underline;
-}
-.intro {
-    font-size: 20px;
-    text-align: justify;
-    line-height: 1.5;
-}
-.intro.third {
-    line-height: 2;
 }
 h3 {
     margin: 10px;
@@ -67,7 +59,7 @@ h3 {
     font-size: 30px;
 }
 .box {
-    width: 32%;
+    width: 29%;
     height: 450px;
     margin: 20px;
     padding: 5px;
@@ -118,12 +110,25 @@ a:hover {
 .pic.h {
     border: 5px rgb(0, 0, 65) solid; 
     display: block;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px;
+    float: left;
 }
 .pic {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.intro {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.intro .third {
+    line-height: 2;
+    margin: 10px;
+    padding-top: 70px;
+}
+.magazine {
+ overflow: hidden;
+
 }
