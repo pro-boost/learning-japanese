@@ -16,6 +16,25 @@ body {
     margin-left: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.header {
+    background-color: rgb(224, 251, 238);
+    height: 100px;
+    padding: 20px;
+    align-items: center; /* Vertically center the content */
+}
+button {
+    font-family: FuturaPT-Heavy, -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Helvetica Neue", helvetica, ubuntu, roboto, noto, "Segoe UI", Arial, sans-serif;
+    background-color: #D6E9FE;
+    float: right;
+    font-size: 20px;
+    margin-left: 10px ;
+    border: 2px solid darkblue;
+    height: 100%;
+}
+.nihongo {
+    width: auto;
+    height: 100%;
+}
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
@@ -55,6 +74,13 @@ h3 {
     line-height: 1.5;
     font-size: 20px; 
     float: left;   
+}
+.content {
+    background-color: #D6E9FE;
+    margin: 10px;
+    padding: 20px;
+    border: 5px solid lightgreen;
+    overflow: hidden;
 }
 .methods {
     background-color: rgb(224, 241, 255) ;
@@ -100,11 +126,4 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-.content {
-    background-color: #D6E9FE;
-    margin: 10px;
-    padding: 20px;
-    border: 5px solid lightgreen;
-    overflow: hidden;
 }
