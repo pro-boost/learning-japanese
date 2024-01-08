@@ -19,11 +19,11 @@ body {
     width: 100%;
 }
 .header-one {
-    background-color: #f4f4f4;;
+    background-color: #ffd900a4;;
     display: flex;
     padding: 10px;
 }
-.menu {
+.header {
     justify-content: space-between;
     display: flex;
     flex: 1;                       ;
@@ -51,6 +51,39 @@ button {
 }
 button:hover {
     background-color: #80f700; 
+}
+.sidebar {
+    background-color: rgb(255, 147, 192);
+    margin: 10px;
+    padding: 20px;
+    width: fit-content;
+    float: left;
+}
+.menu-title {
+    background-color: #db3485;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding : 20px ;
+    width: 150px;
+    border-radius: 5px; 
+}
+.menu {
+    text-align: left;
+    text-transform: capitalize ;
+    font-weight: bolder;
+    padding : 20px ;
+    margin-bottom: 20px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.menu:hover {
+    background-color: #db3485;
 }
 h1 {
     font-size: 55px;
@@ -147,11 +180,4 @@ a:hover {
 .magazine {
 
 
-}
-.sidebar {
-    background-color: rgb(255, 147, 192);
-    width: 150px;
-    height: 100vh;
-    display: flex;
-    margin: 10px;
 }
