@@ -85,10 +85,44 @@ button:hover {
 .menu:hover {
     background-color: #db3485;
 }
+.title {
+    background-color: #a5d5f6;
+    display: flex;
+    padding: 20px
+}
+.title-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: end;
+}
 h1 {
     font-size: 55px;
     color: rgb(0, 45, 128);
     text-align: center;
+}
+
+a:link {
+    color: red; /* Set the default color for other links to red */
+    display: inline-block;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+a.subscribe {
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.subscribe:hover {
+    background-color: transparent;
+    color: white;
 }
 .greentitle {
     color: rgb(47, 255, 134);
