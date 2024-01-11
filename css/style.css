@@ -15,12 +15,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.header-one {
+.header {
     background-color: #3498db;
     display: flex;
     padding: 10px;
 }
-.header {
+.header-one {
     justify-content: space-between;
     display: flex;
     flex: 1;                       ;
