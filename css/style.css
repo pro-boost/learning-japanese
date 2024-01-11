@@ -27,19 +27,20 @@ body {
     justify-content: space-between;
     display: flex;
     flex: 1;                       ;
-    padding: 20px;
+    padding: 5px;
+    height: 70px;
 }
 .links {
     display: flex;
     justify-content: flex-end;
     padding: 0 10px ;
+    align-items: center;
 }
 .login {
     justify-content: flex-end;
     margin-right: 20px;
 }
 button {
-    font-family: FuturaPT-Heavy, -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Helvetica Neue", helvetica, ubuntu, roboto, noto, "Segoe UI", Arial, sans-serif;
     background-color: #ecf0f1 ; 
     color: #3b3b3b; 
     padding: 10px 20px; 
@@ -51,6 +52,9 @@ button {
 }
 button:hover {
     background-color: #2ecc71 ; 
+}
+.icon {
+    display: flex;
 }
 /*.sidebar {
     background-color: rgb(255, 147, 192);
@@ -102,26 +106,12 @@ h1 {
     text-align: center;
 }
 
-a:link {
-    color: red; /* Set the default color for other links to red */
-    display: inline-block;
-    padding-left: 10px;
-    display: inline-block;
-}
-
-a:hover {
-    background-color: red;
-    color: white;
-    text-decoration: none;
-}
-a.subscribe {
-    color: #e74c3c ;
+.subscribe {
+    color: #e13f2d ;
     font-size: 20px;
     text-decoration: none;
 }
-
-a.subscribe:hover {
-    background-color: transparent;
+.subscribe:hover {
     color: white;
 }
 .content {
@@ -146,20 +136,21 @@ p {
 .content-one-one {
     display: flex;
 }
-.girl {
+.one {
     border: 5px rgb(0, 0, 98) solid; 
     margin-right: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
     flex-wrap: left;
 }
-ul {
+.content-one-one ul {
     font-size: 30px;
     text-align: justify;
     margin-left: 20px;
     padding-top: 10px;
     line-height: 1.5;
     list-style-position: inside;
+    list-style: none;
 }
 li {
     padding: 10px 0;
@@ -169,68 +160,50 @@ li {
     margin-top: 20px;
     padding: 20px ;
     background-color: #f2f2f2 ;
+    display: flex;
 }
-/*h3 {
+.box {
+    background-color: #dcdcdc;
+    border: 1px solid #ccc;      
+    font-size: 20px; 
+    margin: 20px;
+    padding: 5px;
+    line-height: 1.5;
+    flex: 1;
+}
+h3 {
+    color: #333;
     margin: 10px;
     padding: 0%;
     font-size: 30px;
 }
-.box {
-    width: 29%;
-    height: 450px;
-    margin: 20px;
-    padding: 5px;
+.box ul{
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 20px;
+    padding-top: 10px;
     line-height: 1.5;
-    font-size: 20px;   
+    list-style-position: inside;
+}
+.box li{
+    line-height: 1;
+}
+.picbox {
+    background-color: #708090;
+    height: 250px;
+    display: flex;
+}
+.pic.two  {
+    margin: 0 auto;
 }
 
-.methods {
-    background-color: rgb(224, 241, 255) ;
-    border: 5px rgb(0, 67, 121) solid;
-}
-.apps {
-    background-color: rgb(188, 223, 252) ;
-    border: 5px rgb(0, 63, 121) solid;
-}
-.tools {
-    background-color: rgb(146, 206, 255) ;
-    border: 5px rgb(8, 0, 121) solid;
-}
-.underline-italic {
-    text-decoration: underline;
-    font-style: italic; 
-}
 a:link {
-    color:red;
+    color:#1895e9;
     display: inline-block;
     padding-left: 10px; 
-    display: inline-block
+    transition: color 0.3s ease;
 }
 a:hover {  
-    background-color: #f0f0f0;
-    color: #black;
+    color: #9bc1ff;
     text-decoration: none;
 }
-.apps ul {
-    list-style-type: circle;
-}
-.tools ul {
-    list-style-type: square;
-}
-
-.pic {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-}
-.intro {
-    font-size: 20px;
-    text-align: justify;
-    line-height: 1.5;
-}
-.intro .third {
-    line-height: 2;
-    margin: 10px;
-    padding-top: 70px;
-}*/
