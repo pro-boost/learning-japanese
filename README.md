@@ -1,12 +1,12 @@
 # 🇯🇵 Learning Japanese
 
-A simple and clean website to practice basic HTML and CSS while learning Japanese. This project is focused on creating a straightforward and easy-to-navigate site to help beginners get familiar with the language through simple vocabulary and phrases.
+A simple and clean website to practice my basic HTML and CSS. This project is focused on creating a straightforward and easy-to-navigate site to help beginners get familiar with the language through simple vocabulary and phrases.
 
 ---
 
 ## 📖 Project Overview
 
-This project is designed as a beginner-friendly website that helps users practice Japanese by presenting simple words, phrases, and their English translations in an easy-to-read format. It uses only basic HTML and CSS, with no advanced frameworks or libraries, making it ideal for those starting out with web development and language learning.
+This project is designed as a beginner-friendly website that helps users practice Japanese in an easy-to-read format. It uses only basic HTML and CSS, with no advanced frameworks or libraries, making it ideal for those starting out with web development and language learning.
 
 ---
 
@@ -14,8 +14,6 @@ This project is designed as a beginner-friendly website that helps users practic
 
 - Simple and clean layout using basic HTML and CSS
 - Sections with Japanese vocabulary and phrases
-- Clear English translations for easy understanding
-- Responsive design that works well on mobile and desktop
 
 ---
 
